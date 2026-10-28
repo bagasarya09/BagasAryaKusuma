@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+* {
+  cursor: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #FAFAF8;
+  overflow-x: hidden;
+}
+
+.dark body {
+  background: #111111;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Syne', sans-serif;
+}
+
+/* =========================
+   CUSTOM CURSOR EFFECT
+========================= */
+
+/* .cursor-grow {
+  width: 56px !important;
+  height: 56px !important;
+  background: #7c3aed !important;
+} */
+
+/* =========================
+   ANIMATED BLOBS
+========================= */
+
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.45;
+  animation: blobFloat 12s ease-in-out infinite;
+}
+
+.blob-1 {
+  width: 320px;
+  height: 320px;
+  background: #d9ff3f;
+  top: -80px;
+  left: -80px;
+}
+
+.blob-2 {
+  width: 300px;
+  height: 300px;
+  background: #f6c7cd;
+  bottom: -120px;
+  right: -80px;
+  animation-delay: 2s;
+}
+
+.blob-3 {
+  width: 260px;
+  height: 260px;
+  background: #b8e8ff;
+  top: 40%;
+  left: 50%;
+  animation-delay: 4s;
+}
+
+@keyframes blobFloat {
+  0% {
+    transform: translateY(0px) translateX(0px);
+  }
+  25% {
+    transform: translateY(-30px) translateX(20px);
+  }
+  50% {
+    transform: translateY(20px) translateX(-30px);
+  }
+  75% {
+    transform: translateY(-10px) translateX(40px);
+  }
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+}
+
+/* =========================
+   GLASSMORPHISM
+========================= */
+
+.glass {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.dark .glass {
+  background: rgba(24, 24, 27, 0.5);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}

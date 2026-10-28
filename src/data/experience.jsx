@@ -1,0 +1,42 @@
+export const experiences = [
+  {
+    year: "2025 — Present",
+    role: "UI/UX Designer & Social Media Creative",
+    category: "Work",
+    company: "Wisesa Consulting Indonesia",
+    desc: "Designing modern UI/UX interfaces, managing social media content, creating visual branding, and developing engaging digital content for company platforms.",
+    color: "bg-violet-300",
+  },
+  {
+    year: "2024 — 2025",
+    role: "IT Helpdesk & Social Media Management",
+    category: "Internship",
+    company: "Wisesa Consulting Indonesia",
+    desc: "Handled DCT support, managed social media content, created promotional designs, and assisted digital branding activities for company needs.",
+    color: "bg-sky-300",
+  },
+  {
+    year: "2024 — Present",
+    role: "Freelance Graphic Designer",
+    category: "Freelance",
+    company: "Various Clients",
+    desc: "Designed posters, banners, logos, and promotional visual assets for branding, social media, and digital marketing purposes.",
+    color: "bg-orange-300",
+  },
+  {
+    year: "2024",
+    role: "IT Software",
+    category: "Competition",
+    company: "Lomba Kompetensi Siswa — Kota & Provinsi",
+    desc: "Participated in IT Software competition focused on software development, problem solving, and technical implementation at city and provincial levels.",
+    color: "bg-pink-300",
+  },
+  {
+    year: "2024",
+    role: "Web Developer",
+    category: "Project",
+    company: "SMK Jakarta Pusat 1 & SMAIT Tenjolaya",
+    desc: "Developed responsive school profile websites with modern interfaces, dynamic content management, and integrated frontend-backend systems.",
+    color: "bg-lime-300",
+  },
+]
