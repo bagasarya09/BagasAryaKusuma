@@ -23,7 +23,7 @@
         </HoverCardProfile>
 
           <div className="absolute -bottom-3 -right-2 rounded-2xl border-[3px] text-white border-black bg-[#0A76D4] px-6 py-4 text-center font-bold shadow-[6px_6px_0_#111] dark:border-white dark:text-black dark:shadow-[6px_6px_0_#fff]">
-            <span className="block text-3xl font-extrabold">1+</span>
+            <span className="block text-3xl font-extrabold">2+</span>
             Years Experience
           </div>
         </div>
