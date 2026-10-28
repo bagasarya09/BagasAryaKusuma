@@ -1,4 +1,4 @@
-  import profileimg from "../../assets/profile.png"
+  import profileimg from "../../assets/Profile.png"
   import HoverCardProfile from "../ui/HoverCardProfile"
   
   export default function About() {
